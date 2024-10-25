@@ -7,12 +7,17 @@ public class LibController {
     private LibView view = new LibView();
 
     public LibController() {
-        // 5권의 초기 도서(2024 베스트셀러를 넣음)
+        // 10권의 초기 도서(2024 베스트셀러를 넣음)
         bookList.add(new BookDTO("1-123", "마흔에 읽는 쇼펜하우어", "강용수", "유노북스", 13800));
         bookList.add(new BookDTO("1-234", "도둑맞은 집중력", "요한 하리", "어크로스", 16900));
         bookList.add(new BookDTO("1-345", "생각이 너무 많은 어른들을 위한 심리학", "김혜남", "메이븐", 16000));
         bookList.add(new BookDTO("1-456", "나는 메트로폴리탄 미술관의 경비원입니다", "패트릭 브링리", "웅진지식하우스", 15750));
         bookList.add(new BookDTO("1-567", "이처럼 사소한 것들", "클레어 키건", "다산책방", 12400));
+        bookList.add(new BookDTO("1-678", "모순", "양귀자", "쓰다", 11700));
+        bookList.add(new BookDTO("1-789", "인간 실격", "다자이 오사무", "민음사", 8100));
+        bookList.add(new BookDTO("1-891", "데미안", "헤르만 헤세", "민음사", 7200));
+        bookList.add(new BookDTO("1-912", "참을 수 없는 존재의 가벼움", "밀란 쿤데라", "민음사", 15300));
+        bookList.add(new BookDTO("2-123", "시한부", "백은별", "바른북스", 15100));
     }
 
     public void start() {
